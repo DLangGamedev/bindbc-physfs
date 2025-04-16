@@ -1,0 +1,32 @@
+{
+    "name": "bindbc-physfs",
+    "description": "Dynamic binding to PhysFS",
+    "homepage": "https://github.com/DLangGamedev/bindbc-physfs",
+    "license": "BSL-1.0",
+    "authors": [
+        "Timur Gafarov"
+    ],
+    "copyright": "Copyright (C) 2025, Timur Gafarov",
+    
+    "dependencies": {
+        "bindbc-loader": "~>1.0"
+    },
+
+    "importPaths": ["src"],
+    "sourcePaths": ["src"],
+
+    "buildRequirements": [
+        "allowWarnings"
+    ],
+
+    "configurations": [
+        {
+            "name": "library",
+            "targetType": "library"
+        },
+        {
+            "name": "debug",
+            "targetType": "library"
+        }
+    ]
+}
